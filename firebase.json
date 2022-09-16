@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "american-wedding",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
