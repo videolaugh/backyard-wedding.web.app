@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "american-wedding",
+    "site": "backyard-wedding",
     "public": "public",
     "ignore": [
       "firebase.json",

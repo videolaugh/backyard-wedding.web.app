@@ -1,6 +1,6 @@
-baseURL = "https://american-wedding.web.app/"
+baseURL = "https://backyard-wedding.web.app/"
 languageCode = "en-us"
-title = "American Wedding"
+title = "Backyard Wedding"
 theme = "z"
 
 [taxonomies]
@@ -41,7 +41,7 @@ theme = "z"
 
 [author]
     name = "Clara Bernadette"
-    homepage = "https://american-wedding.web.app/"
+    homepage = "https://backyard-wedding.web.app/"
     bio = "True Food Lover"
     image = "https://i.imgur.com/qNQv8nK.jpg"
 
